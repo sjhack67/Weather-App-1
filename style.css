@@ -1,3 +1,4 @@
+html {height: 100%}
 /* Import Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
@@ -10,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100%;
   background: #43AFFC;
 }
 ::selection{
@@ -206,7 +207,10 @@ content-wrap {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
+  text-align: center;
+  background-color: #f6f474;
+  padding: 10px;
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
